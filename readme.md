@@ -12,8 +12,13 @@ A simple Python library for tokenizing text files and breaking them into overlap
 
 Install the package from PyPI using pip:
 
-```pip3 install text_tokenizer```
+```make install```
 
+```make build```
+
+## Removal 
+
+```make clean```
 
 ## Usage
 
@@ -33,6 +38,12 @@ for i, chunk in enumerate(chunks):
     print(f"Chunk {i}: {len(chunk)} tokens")
 Replace "path/to/your/text/file.txt" with the path of the file you want to process.
 ```
+
+## To Do:
+
+- [ ] Allow users to use it as a CLI
+- [ ] Add Cost Estimator for commerical LLMs
+- [ ] Add rate limiters which could be set by users
 
 Dependencies
 - nltk
