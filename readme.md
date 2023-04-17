@@ -25,7 +25,7 @@ Install the package from PyPI using pip:
 Here's an example of how to use the Text Tokenizer library:
 
 ```python
-from text_tokenizer import Tokenizer
+from token_count import Tokenizer
 
 tokenizer = Tokenizer()
 
@@ -36,8 +36,8 @@ print(f"Number of tokens: {token_count}")
 chunks = tokenizer.break_up_file_to_chunks(filename)
 for i, chunk in enumerate(chunks):
     print(f"Chunk {i}: {len(chunk)} tokens")
-Replace "path/to/your/text/file.txt" with the path of the file you want to process.
 ```
+Replace "path/to/your/text/file.txt" with the path of the file you want to process.
 
 ## To Do:
 
